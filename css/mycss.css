@@ -37,8 +37,18 @@ height: 75%;
     height: 3%;
     background-color: rgb(150, 153, 161);
 }
+#targetForm
+{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+}
 #sourceForm
 {
     background-color: yellow;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
  
 }

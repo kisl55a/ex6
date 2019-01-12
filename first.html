@@ -14,7 +14,9 @@
     <p>
         This is the first page.
     </p> 
-    <div id="sourceForm ">
+    <h3>Choose</h3>
+    <div id="sourceForm">
+        
             <label for="language">Language
             <br>
             <select id="language" name="language" onchange="showLanguage()">
@@ -32,11 +34,14 @@
     <input name="Phone" type="radio"  onclick="showPhone('Samsung')"> Samsung <br>
 </label> <br>
     </div>
+    <h3>Selected values</h3>
     <div id="targetForm">
+       
         Language: <br>
         <label for="language"><input type="text" id="selected_language"></label> <br>
         Phone: <br>
         <label for="Phone"><input type="text" id="selected_phone"></label> <br>
     </div>
 </body>
+<link rel="stylesheet" type="text/css" media="screen" href="css/mycss.css" />
 </html>
